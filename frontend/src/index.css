@@ -1,0 +1,137 @@
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+body {
+    margin-top: 50px;
+    background-color: #bad9fc;
+}
+
+header {
+    background-color: #0275dd;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    font-family: 'Pacifico', 'Poppins';    
+    font-size: 28px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.navbar-content {
+    display: flex;
+}
+
+.navbar-content li {    
+    display: inline;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+}
+
+a:hover {
+    color: orange;
+}
+
+.search-input {
+    margin-left: 80px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.search-input input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+.search-input button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+    width: 60px;
+    border: none;
+}
+
+.search-input i{
+    margin-left: 200px;
+    font-size: 1.5rem;
+}
+
+.search-input p {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+p:hover {
+    border-radius: 1px solid black;
+}
+
+/* Dashboard */
+
+.main-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box {
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 0 15px;
+    background-color: #f5f4f4;
+}
+
+.main-dashboard h3{
+    font-weight: 700;
+    text-align: left;
+    margin-left: 30px;
+    display: inline;
+    color: #0275dd;
+}
+
+.main-dashboard select {
+    height: 30px;
+    font-weight: 700;
+    border: none;
+}
+
+.main-dashboard p{
+    font-weight: 700;
+    text-align: left;
+    margin-left: 100px;
+    display: inline;
+}
+
+.bar-chart {
+    text-align: center;
+    margin-top: 40px;
+}
+
