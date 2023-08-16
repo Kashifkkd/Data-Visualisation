@@ -7,6 +7,8 @@ const dataRoutes = require('./routes/dataRoutes')
 const app = express();
 dotenv.config()
 
+const PORT = process.env.PORT || 4000
+
 app.use(express.json())
 app.use(express.static('public'));
 app.use(pathMiddleware)
@@ -19,8 +21,8 @@ app.use('/api',dataRoutes)
 
 mongoose.connect(process.env.MONGODB_URI)
     .then(() => {
-        app.listen(process.env.PORT || 3000, () => {
-            console.log(`Connected to db & listening on port 3000`);
+        app.listen(PORT, () => {
+            console.log(`Connected to db & listening on port 4000`);
         })
     })
     .catch((err) => {
