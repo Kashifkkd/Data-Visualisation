@@ -17,7 +17,7 @@ const Dashboard = () => {
     useEffect( () => {
         setIsLoading(true)
         const fetchData = async () => {
-            const response = await fetch('/api/data/')
+            const response = await fetch('https://data-visualisation.cyclic.cloud/api/data');
             const json = await response.json()
             setData(json)
             setIsLoading(false)

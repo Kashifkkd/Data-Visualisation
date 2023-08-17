@@ -10,6 +10,11 @@ body {
     background-color: #bad9fc;
 }
 
+.home a {
+    color: rgb(3, 6, 170);
+    font-weight: 700;
+}
+
 header {
     background-color: #0275dd;
     height: 50px;
